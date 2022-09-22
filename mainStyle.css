@@ -1,0 +1,259 @@
+/* CSS files add styling rules to your content */
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+/* title of "It is my puppy's background story!" style and color */
+h1 {
+  font-family: Chalkduster;
+  font-style:normal;
+  color: black;
+  font-size:40px;
+}
+
+/* history button color and style */
+button.history {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #B56262;
+  padding: 10px 20px;
+  font-size:16px;
+  font-family: Bradley Hand;
+}
+
+/* history button hover color and style */
+button.history:hover {
+  background-color: #DB8B8B;
+  color: white;
+}
+
+/* detail button color and style */
+button.detail {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 10px 20px;
+  font-size:16px;
+  font-family: courier;
+}
+
+/* detail button hover color and style */
+button.detail:hover {
+  background-color: #00A3D8;
+  color: white;
+}
+
+/* description button color and style */
+button.description {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #D32304;
+  padding: 10px 20px;
+  font-size:16px;
+  font-family: Comic Sans MS;
+}
+
+/* history button color and style */
+button.description:hover {
+  background-color: #F0300E;
+  color: white;
+}
+
+/* other picture button color and style */
+button.otherP {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #617C2A;
+  padding: 10px 20px;
+  font-size:16px;
+  font-family: Chalkduster;
+}
+
+/* other picture button hover color and style */
+button.otherP:hover {
+  background-color: #8CAC4B;
+  color: white;
+}
+
+/* credit button color and style */
+button.credit {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #A37400;
+  padding: 10px 20px;
+  font-size:16px;
+  font-family: Luminari;
+}
+
+/* credit button hover color and style */
+button.credit:hover {
+  background-color: #BB8602;
+  color: white;
+}
+
+/* picture button color and style */
+button.picture {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #5A03CD;
+  padding: 10px 20px;
+  font-size:16px;
+  font-family: American Typewriter;
+}
+
+/* picture button hover color and style */
+button.picture:hover {
+  background-color: #6A0EE5;
+  color: white;
+}
+
+/* read more button color and style */
+button.readHis {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #5A03CD;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size:16px;
+  font-family: courier;
+}
+
+/* read more button hover color and style */
+button.readHis:hover {
+  background-color: #6A0EE5;
+  color: white;
+}
+
+/* "read more history" button color and style */
+button.outside {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #9D9D9D;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-size:16px;
+  font-family: courier;
+}
+
+/* read whole history button hover color and style */
+button.outside:hover {
+  background-color: #9D9D9D;
+  color: white;
+}
+
+/* read whole history button hover color and style */
+a.outside:hover { 
+  color: white;
+}
+
+/* paragraph of "This page is all about Bichon Frise!" color and style */
+p.variant {
+  font-variant: small-caps;
+  font-size:20px;
+}
+
+/* history title color and style */
+h2.history {
+  font-family: Bradley Hand;
+  color: #B56262;
+}
+
+/* paragraph of "Bichon Frise History!" color and style */
+p.history {
+  font-family: Bradley Hand;
+}
+
+/* detail title color and style */
+h2.detail {
+  font-family: courier;
+  color: #008CBA;
+}
+
+/* paragraph of "Bichon Frise Detail!" color and style */
+p.detail{
+  font-family: courier;
+  text-align: center;
+}
+
+/* description title color and style */
+h2.description {
+  font-family: Comic Sans MS;
+  color: #D32304;
+}
+
+/* picture title color and style */
+h2.picture {
+  font-family: American Typewriter;
+  color: #5A03CD;
+}
+
+/* other project title color and style */
+h2.other {
+  font-family: Chalkduster;
+  color: #617C2A;
+}
+
+/* credit title color and style */
+h2.credit {
+  font-family: Luminari;
+  color: #A37400;
+}
+
+/* paragraph of "Bichon Frise Description!" color and style */
+p.description{
+  font-family: Comic Sans MS;
+}
+
+/* extra title color and style */
+h2.extra{
+  font: normal;
+  text-align: left;
+  font-size: 20px;
+  color: #0F719E;
+}
+
+/* intro backgorund color */
+div.intro {
+  background-color: #69FFE5;
+}
+
+/* transform style and color> */
+div.transform {
+  width: 200px;
+  height: 20px;
+  background-color: #EC5BCD;
+  transform: skewY(8deg);
+  transform-property: width;
+}
+
+/* animation style and color */
+div.animation {
+  width: 80px;
+  height: 40px;
+  background-color: #DA4646;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+  transition-property: opacity, left;
+  transition-duration: 3s, 5s, 3s, 5s;
+}
+@keyframes example {
+  0%   {background-color:#3A8ED6; left:0px; top:0px;}
+  25%  {background-color:#EA61E2; left:200px; top:0px;}
+  50%  {background-color:#47DA64; left:200px; top:200px;}
+  75%  {background-color:#EA61E2; left:0px; top:200px;}
+  100% {background-color:#DA9346; left:0px; top:0px;}
+}
+
+
+/* transition hover */
+div.transition:hover {
+  width: 300px;
+  height: 100px;
+}
+
+/* style for "read more" in Bichon Frise History! */
+#more {
+  display: none;
+}
